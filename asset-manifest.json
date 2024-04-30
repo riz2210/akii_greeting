@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/akii_greeting/static/css/main.2c170e41.css",
+    "main.js": "/akii_greeting/static/js/main.5aaf76f2.js",
+    "static/js/453.e754f859.chunk.js": "/akii_greeting/static/js/453.e754f859.chunk.js",
+    "static/media/invi.png": "/akii_greeting/static/media/invi.c9f715477f7459299a3f.png",
+    "static/media/photo1.png": "/akii_greeting/static/media/photo1.49502e42970aded88d43.png",
+    "static/media/desc.png": "/akii_greeting/static/media/desc.96a5ec36a985b22013bd.png",
+    "static/media/Background-Images.jpg": "/akii_greeting/static/media/Background-Images.80e1d801c996770195d1.jpg",
+    "static/media/logo.svg": "/akii_greeting/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/akii_greeting/index.html",
+    "main.2c170e41.css.map": "/akii_greeting/static/css/main.2c170e41.css.map",
+    "main.5aaf76f2.js.map": "/akii_greeting/static/js/main.5aaf76f2.js.map",
+    "453.e754f859.chunk.js.map": "/akii_greeting/static/js/453.e754f859.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c170e41.css",
+    "static/js/main.5aaf76f2.js"
+  ]
+}
