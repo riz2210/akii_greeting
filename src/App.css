@@ -1,38 +1,65 @@
 .App {
   text-align: center;
+  background-image: url(/public/Background-Images.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width:391px;
+  height: 1321px;
+  /* border:1px  solid; */
+}
+.wish{
+
+
+}
+.fwish{
+    margin:0;
+    padding-top: 35px;
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+    color: white;
+    /* border: 1px red solid; */
+}
+.farewish{
+  font-family: 'Actor', sans-serif;
+  margin: 0;
+   /* border: 1px red solid; */
+   padding-top: 5px;
+  font-size: 80px;
+  font-weight: bolder;
+    color: white;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.teddy{
+  height:65px;
+  transition: transform 0.5s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.photo{
+  padding-top: 20px;
+  height: 300px;
+  margin-left: -140px;
+}
+.photo2{
+  padding-top:35px;
+  height: 310px;
+  width:330px;
+  margin-left: 43px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.photo3{
+  padding-top: 50px;
+  height: 310px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes rotate {
   from {
-    transform: rotate(0deg);
+      transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+      transform: rotate(360deg);
   }
+}
+.teddy:hover{
+  animation: rotate 2s linear forwards; 
 }
